@@ -1,0 +1,42 @@
+name: e2e
+# Builds the app and runs Playwright against it IN CI, using the PREVIEW database only
+# (secrets PREVIEW_DATABASE_URL / PREVIEW_DASHBOARD_DATABASE_URL). Never the live demo database.
+# Pause (e.g. during judging, Sun 10:30-13:00) with the repo variable E2E_PAUSED=true.
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [dev]
+# The preview database is shared: never run two e2e jobs at once.
+concurrency:
+  group: e2e-preview-db
+  cancel-in-progress: false
+jobs:
+  e2e:
+    if: vars.E2E_PAUSED != 'true'
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.PREVIEW_DATABASE_URL }}
+      DASHBOARD_DATABASE_URL: ${{ secrets.PREVIEW_DASHBOARD_DATABASE_URL }}
+      JEV_MODE: mock
+      # SEC-1: throwaway gate config for the CI server only (never valid on a deployment).
+      DEMO_ACCESS_CODES: ci-e2e-access-code
+      DEMO_COOKIE_SECRET: ci-only-cookie-secret-not-used-anywhere-else
+      E2E_ACCESS_CODE: ci-e2e-access-code
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require preview database secrets
+        run: |
+          if [ -z "$DATABASE_URL" ] || [ -z "$DASHBOARD_DATABASE_URL" ]; then
+            echo "::error::Set PREVIEW_DATABASE_URL and PREVIEW_DASHBOARD_DATABASE_URL repo secrets"; exit 1
+          fi
+          case "$DATABASE_URL" in *sdpufnoocmiwvqvdfbpt*) echo "::error::refusing to run e2e against the demo database"; exit 1;; esac
+      - uses: actions/setup-node@v4
+        with: { node-version-file: .nvmrc, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with: { name: playwright-report, path: playwright-report, retention-days: 3 }

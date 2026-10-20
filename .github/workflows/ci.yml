@@ -1,0 +1,23 @@
+name: ci
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: .nvmrc, cache: npm }
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      # Cache Components / prerender errors only show up in a real build (MANIFEST §6).
+      - run: npm run build
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost:5432/ci
+          DASHBOARD_DATABASE_URL: postgresql://ci:ci@localhost:5432/ci
+          JEV_MODE: mock

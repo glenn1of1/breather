@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "quoteHash": "q1",
+      "containsPii": false,
+      "source": "jev"
+    },
+    {
+      "quoteHash": "q3",
+      "containsPii": true,
+      "source": "jev"
+    }
+  ]
+}

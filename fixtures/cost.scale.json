@@ -1,0 +1,87 @@
+{
+  "monthly": {
+    "low": 3453,
+    "base": 4444,
+    "high": 4945
+  },
+  "annual": {
+    "low": 41436,
+    "base": 53328,
+    "high": 59340
+  },
+  "band": [
+    {
+      "month": 1,
+      "low": 4015,
+      "base": 4444,
+      "high": 4873
+    },
+    {
+      "month": 2,
+      "low": 3838,
+      "base": 4444,
+      "high": 5050
+    },
+    {
+      "month": 3,
+      "low": 3702,
+      "base": 4444,
+      "high": 5186
+    },
+    {
+      "month": 4,
+      "low": 3587,
+      "base": 4444,
+      "high": 5301
+    },
+    {
+      "month": 5,
+      "low": 3486,
+      "base": 4444,
+      "high": 5402
+    },
+    {
+      "month": 6,
+      "low": 3394,
+      "base": 4444,
+      "high": 5494
+    },
+    {
+      "month": 7,
+      "low": 3310,
+      "base": 4444,
+      "high": 5578
+    },
+    {
+      "month": 8,
+      "low": 3232,
+      "base": 4444,
+      "high": 5656
+    },
+    {
+      "month": 9,
+      "low": 3158,
+      "base": 4444,
+      "high": 5730
+    },
+    {
+      "month": 10,
+      "low": 3089,
+      "base": 4444,
+      "high": 5799
+    },
+    {
+      "month": 11,
+      "low": 3023,
+      "base": 4444,
+      "high": 5865
+    },
+    {
+      "month": 12,
+      "low": 2959,
+      "base": 4444,
+      "high": 5929
+    }
+  ],
+  "bandLevel": 0.8
+}

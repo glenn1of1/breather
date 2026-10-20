@@ -1,0 +1,30 @@
+{
+  "category": "scale",
+  "confidence": 0.82,
+  "reasons": [
+    "3 of 4 outcome measures improved against the baseline.",
+    "92% of funded places were used, above the 60% bar.",
+    "8 eligible people are waiting for a place, so demand exceeds the funded places."
+  ],
+  "inputs": [
+    {
+      "label": "Measures improved",
+      "value": "3 of 4"
+    },
+    {
+      "label": "Uptake",
+      "value": "92%"
+    },
+    {
+      "label": "Waitlist",
+      "value": "8"
+    },
+    {
+      "label": "Came close",
+      "value": "6"
+    }
+  ],
+  "source": "jev",
+  "rulesCategory": "scale",
+  "rulesAgree": true
+}

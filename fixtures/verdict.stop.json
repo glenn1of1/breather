@@ -1,0 +1,30 @@
+{
+  "category": "stop",
+  "confidence": null,
+  "reasons": [
+    "Only 1 of 4 outcome measures improved against the baseline.",
+    "42% of funded places were used, under the 60% bar.",
+    "The pilot did not show enough value to justify continuing as designed."
+  ],
+  "inputs": [
+    {
+      "label": "Measures improved",
+      "value": "1 of 4"
+    },
+    {
+      "label": "Uptake",
+      "value": "42%"
+    },
+    {
+      "label": "Waitlist",
+      "value": "0"
+    },
+    {
+      "label": "Came close",
+      "value": "5"
+    }
+  ],
+  "source": "rules",
+  "rulesCategory": "stop",
+  "rulesAgree": true
+}

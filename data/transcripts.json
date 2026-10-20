@@ -1,0 +1,147 @@
+{
+  "_note": "SYNTHETIC focus-group excerpts (placeholder until Giada's set). Speaker ids are per-session pseudonyms. Lines marked _planted contain personal information on purpose, to show the filter removes them.",
+  "sessions": [
+    {
+      "id": "S1",
+      "excerpts": [
+        {
+          "speaker": "S1-A",
+          "text": "For the first time in months I made it through a full week of meetings without leaving early."
+        },
+        {
+          "speaker": "S1-B",
+          "text": "Having someone with my dad on Tuesdays means I can actually focus at work that day."
+        },
+        {
+          "speaker": "S1-C",
+          "text": "I didn't have to explain myself to anyone, I just signed up. That made it easier to ask."
+        },
+        {
+          "speaker": "S1-D",
+          "text": "Booking the first visit took three phone calls, I almost gave up."
+        },
+        {
+          "speaker": "S1-E",
+          "text": "I stopped using my sick days to cover appointments, which I was doing every month."
+        },
+        {
+          "speaker": "S1-F",
+          "text": "What happens in March when the funding stops? I don't want to get used to this and lose it."
+        },
+        {
+          "speaker": "S1-B",
+          "text": "The carer was great with my dad, he actually looks forward to it now."
+        },
+        {
+          "speaker": "S1-A",
+          "text": "My manager Dave Thompson kept asking why I needed Fridays, this helped.",
+          "_planted": true
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "excerpts": [
+        {
+          "speaker": "S2-A",
+          "text": "I get my evenings back, so I'm less exhausted in the morning and I'm more present at work."
+        },
+        {
+          "speaker": "S2-B",
+          "text": "Knowing it was anonymous made it easier to sign up. I didn't want HR to know my situation."
+        },
+        {
+          "speaker": "S2-C",
+          "text": "The scheduling portal was confusing, I wasn't sure if my booking went through."
+        },
+        {
+          "speaker": "S2-D",
+          "text": "I trust the carers now, at first I was nervous leaving my mom with a stranger."
+        },
+        {
+          "speaker": "S2-E",
+          "text": "I've used fewer vacation days for caregiving since the pilot started."
+        },
+        {
+          "speaker": "S2-F",
+          "text": "I'd pay part of it myself if the company didn't, it's been that useful. But I worry it ends."
+        },
+        {
+          "speaker": "S2-C",
+          "text": "Call me at 416-555-0199 if you need someone to talk to the planners.",
+          "_planted": true
+        },
+        {
+          "speaker": "S2-A",
+          "text": "I felt less guilty asking for help because it's a company program, not a favour."
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "excerpts": [
+        {
+          "speaker": "S3-A",
+          "text": "I can take a proper lunch break now instead of calling home to check in."
+        },
+        {
+          "speaker": "S3-B",
+          "text": "Asking for help felt normal because other people on my team were doing it too."
+        },
+        {
+          "speaker": "S3-C",
+          "text": "It took a while to figure out who to call to change a booking."
+        },
+        {
+          "speaker": "S3-D",
+          "text": "The same carer came every week, which mattered a lot for my husband."
+        },
+        {
+          "speaker": "S3-E",
+          "text": "My focus at work is better on the days I know he's looked after."
+        },
+        {
+          "speaker": "S3-F",
+          "text": "I hope this continues after the pilot. If it stops I'm back to juggling everything."
+        },
+        {
+          "speaker": "S3-B",
+          "text": "It was a relief not having to justify it to my supervisor or anyone else."
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "excerpts": [
+        {
+          "speaker": "S4-A",
+          "text": "I booked the wrong day twice because the confirmation never arrived."
+        },
+        {
+          "speaker": "S4-B",
+          "text": "Scheduling around shift changes was hard, the booking window is too short."
+        },
+        {
+          "speaker": "S4-C",
+          "text": "If the funding ends I don't know how we'd afford this on our own."
+        },
+        {
+          "speaker": "S4-D",
+          "text": "Please tell us early what happens after the pilot, so we can plan."
+        },
+        {
+          "speaker": "S4-E",
+          "text": "The carer remembered my mother's routine, that's when I started to trust it."
+        },
+        {
+          "speaker": "S4-F",
+          "text": "I was nervous at first, but the carers were kind and on time every visit."
+        },
+        {
+          "speaker": "S4-G",
+          "text": "I didn't have to justify anything to anyone, so asking for help felt okay."
+        }
+      ]
+    }
+  ]
+}

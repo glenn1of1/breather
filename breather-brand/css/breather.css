@@ -1,0 +1,98 @@
+/* Breather base styles and components. Import once, after tokens.css:
+   @import "@breather/brand/css/tokens.css";
+   @import "@breather/brand/css/breather.css";
+   Rules: flat (no shadows, no gradients), everything rounded, five type styles, nothing under 12px. */
+
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ---------- Base ---------- */
+.br-root, .br-employer {
+  background: var(--br-page);
+  color: var(--br-plum);
+  font-family: var(--br-font);
+  font-size: var(--br-type-body-size);
+  line-height: var(--br-type-body-leading);
+  font-synthesis: none;
+}
+.br-root :focus-visible, .br-employer :focus-visible {
+  outline: var(--br-focus);
+  outline-offset: var(--br-focus-offset);
+}
+
+/* ---------- The five type styles (no others) ---------- */
+.br-display  { font-size: var(--br-type-display-size);  font-weight: 400; line-height: var(--br-type-display-leading);  margin: 0; }
+.br-headline { font-size: var(--br-type-headline-size); font-weight: 400; line-height: var(--br-type-headline-leading); margin: 0; }
+.br-title    { font-size: var(--br-type-title-size);    font-weight: 700; line-height: var(--br-type-title-leading);    margin: 0; }
+.br-body     { font-size: var(--br-type-body-size);     font-weight: 400; line-height: var(--br-type-body-leading);     max-width: 70ch; }
+.br-label    { font-size: var(--br-type-label-size);    font-weight: 700; line-height: var(--br-type-label-leading); }
+.br-muted    { color: var(--br-text-grey); } /* page background only */
+
+/* Red sentence-case kicker above a headline (Title size, never caps). */
+.br-kicker { margin: 0 0 4px; color: var(--br-se-red-deep); font-size: var(--br-type-title-size); font-weight: 700; line-height: var(--br-type-title-leading); }
+.br-page-title { display: flex; flex-direction: column; gap: 12px; }
+.br-rule { display: block; width: 64px; height: 2px; border-radius: 999px; background: var(--br-se-red); }
+
+/* ---------- Buttons: full pills, 44px minimum ---------- */
+.br-button {
+  min-height: var(--br-target-min); display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 10px 20px; border: 1px solid transparent; border-radius: var(--br-radius-full);
+  font: 700 var(--br-type-label-size) / var(--br-type-label-leading) var(--br-font); cursor: pointer;
+}
+.br-button--hero      { background: var(--br-se-red); color: var(--br-white); }
+.br-button--hero:hover { background: var(--br-se-red-deep); }
+.br-button--default   { background: var(--br-plum); color: var(--br-white); }
+.br-button--default:hover { background: var(--br-sidebar-active); }
+.br-button--secondary { background: var(--br-page); color: var(--br-plum); border-color: var(--br-plum); }
+.br-button--secondary:hover { background: var(--br-plum-tint); }
+.br-button:disabled   { background: var(--br-card); color: var(--br-text-grey); border-color: transparent; cursor: not-allowed; }
+.br-icon-button { width: 44px; height: 44px; display: inline-grid; place-items: center; border: 0; border-radius: 999px; background: var(--br-plum); color: var(--br-white); cursor: pointer; }
+
+/* ---------- Tones: one meaning per colour family, Plum text on every tint ---------- */
+.br-tone--people   { background: var(--br-red-tint);  color: var(--br-plum); --br-shape-fill: var(--br-shape-people); }
+.br-tone--info     { background: var(--br-teal-tint); color: var(--br-plum); --br-shape-fill: var(--br-shape-info); }
+.br-tone--activity { background: var(--br-plum-tint); color: var(--br-plum); --br-shape-fill: var(--br-shape-activity); }
+.br-tone--positive { background: var(--br-soft-sage); color: var(--br-plum); --br-shape-fill: var(--br-shape-positive); }
+.br-tone--card     { background: var(--br-card);      color: var(--br-plum); --br-shape-fill: var(--br-shape-card); }
+.br-tone--page     { background: var(--br-page);      color: var(--br-plum); --br-shape-fill: var(--br-shape-card); }
+
+/* ---------- Cards: 24px, flat, one idea each ---------- */
+.br-card { position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: var(--br-radius-xl); }
+.br-card__shape { position: absolute; z-index: -1; right: -28px; bottom: -28px; width: 128px; height: 128px; color: var(--br-shape-fill); opacity: .55; pointer-events: none; }
+.br-stat__head { display: flex; align-items: center; gap: 8px; }
+.br-stat__hint { margin: 0; }
+@media (max-width: 640px) { .br-card { padding: 16px; } }
+
+/* ---------- Icon chips: outline icon in a tinted circle ---------- */
+.br-icon-chip { width: 36px; height: 36px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; background: var(--br-page); color: var(--br-plum); }
+.br-icon-chip--people { color: var(--br-se-red-deep); }
+.br-icon-chip svg { width: 18px; height: 18px; stroke-width: 1.8; }
+
+/* ---------- Number tile (SE signature) ---------- */
+.br-number-tile { width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: var(--br-radius-md); background: var(--br-teal); color: var(--br-white); font-size: var(--br-type-headline-size); line-height: 1; }
+
+/* ---------- Pills and tags ---------- */
+.br-pill { display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px; border-radius: 999px; font-size: var(--br-type-label-size); font-weight: 700; line-height: var(--br-type-label-leading); }
+.br-tag  { display: inline-flex; align-items: center; padding: 2px 12px; border: 1px dashed var(--br-logo-grey); border-radius: 999px; color: var(--br-plum); font-size: var(--br-type-label-size); font-weight: 700; }
+
+/* ---------- Inputs ---------- */
+.br-input { height: var(--br-input-height); width: 100%; padding: 0 14px; border: 1px solid var(--br-logo-grey); border-radius: var(--br-radius-md); background: var(--br-white); color: var(--br-plum); font: inherit; }
+.br-input:disabled { background: var(--br-card); color: var(--br-text-grey); }
+.br-field-error { display: flex; gap: 6px; margin-top: 6px; color: var(--br-se-red-deep); font-size: var(--br-type-label-size); }
+
+/* ---------- Privacy value ---------- */
+.br-privacy { display: inline-flex; align-items: center; gap: 6px; padding: 0 10px; border-radius: var(--br-radius-md); background: var(--br-teal-tint); color: var(--br-plum); cursor: help; }
+
+/* ---------- Synthetic-data banner ---------- */
+.br-synthetic { margin: 0; padding: 8px 16px; border-radius: 999px; background: var(--br-teal-tint); color: var(--br-plum); font-size: var(--br-type-label-size); font-weight: 700; }
+
+/* ---------- Employer co-brand layer ---------- */
+.br-employer { border-radius: var(--br-radius-xl); overflow: hidden; }
+.br-employer__strip { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 20px; background: var(--br-employer-tint); color: var(--br-plum); }
+.br-employer__mark { width: 12px; height: 24px; border-radius: 999px; background: var(--br-employer-accent); }
+
+/* ---------- Brand shapes ---------- */
+.br-shape { display: block; }
+
+@media (prefers-reduced-motion: reduce) {
+  .br-root *, .br-employer * { transition: none !important; animation: none !important; }
+}

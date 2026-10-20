@@ -1,0 +1,73 @@
+/* Optional bridges so an existing app picks up the brand without renaming its variables.
+   Import after tokens.css. Scope with .br-root (or [data-employer]) so only the screens you choose change. */
+
+/* shadcn/ui variables (components/ui/* in the team repo). */
+.br-root, [data-employer] {
+  --background: var(--br-page);
+  --foreground: var(--br-plum);
+  --card: var(--br-card);
+  --card-foreground: var(--br-plum);
+  --popover: var(--br-page);
+  --popover-foreground: var(--br-plum);
+  --primary: var(--br-se-red);
+  --primary-foreground: var(--br-white);
+  --secondary: var(--br-plum);
+  --secondary-foreground: var(--br-white);
+  --muted: var(--br-card);
+  --muted-foreground: var(--br-plum);
+  --accent: var(--br-plum-tint);
+  --accent-foreground: var(--br-plum);
+  --destructive: var(--br-se-red-deep);
+  --border: var(--br-logo-grey);
+  --input: var(--br-logo-grey);
+  --ring: var(--br-plum);
+  --radius: 0.75rem;
+  --chart-1: var(--br-chart-1);
+  --chart-2: var(--br-chart-2);
+  --chart-3: var(--br-chart-3);
+  --chart-4: var(--br-chart-4);
+  --chart-5: var(--br-teal);
+  --sidebar: var(--br-plum);
+  --sidebar-foreground: var(--br-white);
+  --sidebar-primary: var(--br-white);
+  --sidebar-primary-foreground: var(--br-plum);
+  --sidebar-accent: var(--br-sidebar-active);
+  --sidebar-accent-foreground: var(--br-white);
+  --sidebar-border: var(--br-sidebar-active);
+  --sidebar-ring: var(--br-white);
+}
+
+/* Breather app variables (app/breather.css in the team repo). */
+.br-root, [data-employer] {
+  --paper: var(--br-page);
+  --surface: var(--br-page);
+  --ink: var(--br-plum);
+  --plum: var(--br-plum);
+  --violet: var(--br-plum);
+  --muted: var(--br-text-grey);
+  --red: var(--br-se-red);
+  --deep-red: var(--br-se-red-deep);
+  --red-soft: var(--br-red-tint);
+  --red-shape: var(--br-shape-people);
+  --sage: var(--br-soft-sage);
+  --sage-shape: var(--br-shape-positive);
+  --neutral: var(--br-card);
+  --neutral-shape: var(--br-shape-card);
+  --peach: var(--br-plum-tint);
+  --blue-soft: var(--br-teal-tint);
+  --lavender: var(--br-plum-tint);
+  --border: var(--br-logo-grey);
+  --teal: var(--br-teal);
+  --focus: var(--br-plum);
+  --hr-active: var(--br-teal-deep);
+  --hr-waitlist: var(--br-se-red-deep);
+  --hr-waiting: var(--br-plum);
+  --hr-close: var(--br-text-grey);
+  --hr-household: var(--br-chart-1);
+  --hr-companionship: var(--br-chart-2);
+  --hr-personal: var(--br-chart-3);
+  --hr-other: var(--br-chart-4);
+  --planning-low: var(--br-teal-tint);
+  --planning-high: var(--br-red-tint);
+  font-family: var(--br-font);
+}

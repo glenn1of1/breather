@@ -1,0 +1,30 @@
+{
+  "category": "sustain",
+  "confidence": 0.74,
+  "reasons": [
+    "2 of 4 outcome measures improved against the baseline.",
+    "75% of funded places were used, above the 60% bar.",
+    "No one is waiting for a place, so current places meet demand."
+  ],
+  "inputs": [
+    {
+      "label": "Measures improved",
+      "value": "2 of 4"
+    },
+    {
+      "label": "Uptake",
+      "value": "75%"
+    },
+    {
+      "label": "Waitlist",
+      "value": "0"
+    },
+    {
+      "label": "Came close",
+      "value": "5"
+    }
+  ],
+  "source": "jev",
+  "rulesCategory": "sustain",
+  "rulesAgree": true
+}

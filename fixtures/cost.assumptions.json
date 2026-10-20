@@ -1,0 +1,9 @@
+{
+  "providerRate": 50,
+  "hoursPerCaregiverPerMonth": 4.1,
+  "hoursLow": 3.7,
+  "hoursHigh": 4.3,
+  "places": 12,
+  "uptake": 0.75,
+  "adminFeePct": 0.15
+}

@@ -1,0 +1,336 @@
+{
+  "employerName": "Northwind Logistics (fictional)",
+  "scenario": "scale",
+  "week": 6,
+  "synthetic": true,
+  "counts": {
+    "potentialCaregivers": 26,
+    "accepted": 12,
+    "droppedOut": 0,
+    "waitlisted": 8,
+    "pending": 0,
+    "cameClose": 6,
+    "placesUsed": 12,
+    "places": 12,
+    "newThisWeek": {
+      "suppressed": true
+    }
+  },
+  "usage": {
+    "weekly": [
+      {
+        "week": 1,
+        "hours": {
+          "suppressed": true
+        }
+      },
+      {
+        "week": 2,
+        "hours": 4
+      },
+      {
+        "week": 3,
+        "hours": 10.5
+      },
+      {
+        "week": 4,
+        "hours": 11
+      },
+      {
+        "week": 5,
+        "hours": 11
+      },
+      {
+        "week": 6,
+        "hours": 10
+      }
+    ],
+    "mix": [
+      {
+        "service": "household",
+        "share": 0.49
+      },
+      {
+        "service": "companionship",
+        "share": 0.31
+      },
+      {
+        "service": "personal_care",
+        "share": 0.16
+      },
+      {
+        "service": "other",
+        "share": {
+          "suppressed": true
+        }
+      }
+    ]
+  },
+  "trends": {
+    "work_impact": {
+      "baseline": 5.45,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 4.82
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "leave_days": {
+      "baseline": 4,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 1.5
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "intent_stay": {
+      "baseline": 4.36,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 5.09
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "satisfaction": {
+      "baseline": 3.82,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 4.27
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    }
+  },
+  "themes": [
+    {
+      "theme": "Time and focus back for work",
+      "participantCount": 7,
+      "quotes": [
+        {
+          "quoteHash": "fc07b8872a82f8cd",
+          "text": "For the first time in months I made it through a full week of meetings without leaving early."
+        },
+        {
+          "quoteHash": "77f047dac7f14da2",
+          "text": "Having someone with my dad on Tuesdays means I can actually focus at work that day."
+        }
+      ]
+    },
+    {
+      "theme": "Booking and scheduling is confusing",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "6e847e5b566e83df",
+          "text": "Booking the first visit took three phone calls, I almost gave up."
+        },
+        {
+          "quoteHash": "d39b4bfae689db0b",
+          "text": "The scheduling portal was confusing, I wasn't sure if my booking went through."
+        }
+      ]
+    },
+    {
+      "theme": "Easier and less guilty to ask for help",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "1975af293dcad74d",
+          "text": "I didn't have to explain myself to anyone, I just signed up. That made it easier to ask."
+        },
+        {
+          "quoteHash": "91a7675e79bcb289",
+          "text": "Knowing it was anonymous made it easier to sign up. I didn't want HR to know my situation."
+        }
+      ]
+    },
+    {
+      "theme": "Trust in the carers",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "cf9b27b1cb7880ec",
+          "text": "The carer was great with my dad, he actually looks forward to it now."
+        },
+        {
+          "quoteHash": "00b8ceb717ea4ae4",
+          "text": "I trust the carers now, at first I was nervous leaving my mom with a stranger."
+        }
+      ]
+    },
+    {
+      "theme": "Worry about when the funding ends",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "f172cc01d87991e2",
+          "text": "What happens in March when the funding stops? I don't want to get used to this and lose it."
+        },
+        {
+          "quoteHash": "bd495ca045bbf3ba",
+          "text": "I'd pay part of it myself if the company didn't, it's been that useful. But I worry it ends."
+        }
+      ]
+    }
+  ],
+  "report": {
+    "month": 1,
+    "hoursByService": [
+      {
+        "service": "household",
+        "hours": 13
+      },
+      {
+        "service": "companionship",
+        "hours": 7.5
+      },
+      {
+        "service": "personal_care",
+        "hours": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "other",
+        "hours": {
+          "suppressed": true
+        }
+      }
+    ],
+    "activeCaregivers": 11,
+    "fundsUsed": 1275,
+    "fundsCap": 6000
+  },
+  "pilotEnd": null,
+  "evm": {
+    "bac": 6000,
+    "pv": 2182,
+    "ev": 2325,
+    "ac": 2384,
+    "spi": 1.07,
+    "cpi": 0.98
+  }
+}

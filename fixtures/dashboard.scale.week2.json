@@ -1,0 +1,148 @@
+{
+  "employerName": "Northwind Logistics (fictional)",
+  "scenario": "scale",
+  "week": 2,
+  "synthetic": true,
+  "counts": {
+    "potentialCaregivers": 9,
+    "accepted": 9,
+    "droppedOut": 0,
+    "waitlisted": 0,
+    "pending": 0,
+    "cameClose": 0,
+    "placesUsed": 9,
+    "places": 12,
+    "newThisWeek": {
+      "suppressed": true
+    }
+  },
+  "usage": {
+    "weekly": [
+      {
+        "week": 1,
+        "hours": {
+          "suppressed": true
+        }
+      },
+      {
+        "week": 2,
+        "hours": 4
+      }
+    ],
+    "mix": [
+      {
+        "service": "household",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "companionship",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "personal_care",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "other",
+        "share": {
+          "suppressed": true
+        }
+      }
+    ]
+  },
+  "trends": {
+    "work_impact": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "leave_days": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "intent_stay": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "satisfaction": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    }
+  },
+  "themes": [],
+  "report": null,
+  "pilotEnd": null,
+  "evm": {
+    "bac": 6000,
+    "pv": 0,
+    "ev": 200,
+    "ac": 207,
+    "spi": null,
+    "cpi": 0.97
+  }
+}

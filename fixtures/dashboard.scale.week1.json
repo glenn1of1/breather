@@ -1,0 +1,122 @@
+{
+  "employerName": "Northwind Logistics (fictional)",
+  "scenario": "scale",
+  "week": 1,
+  "synthetic": true,
+  "counts": {
+    "potentialCaregivers": 6,
+    "accepted": 6,
+    "droppedOut": 0,
+    "waitlisted": 0,
+    "pending": 0,
+    "cameClose": 0,
+    "placesUsed": 6,
+    "places": 12,
+    "newThisWeek": 6
+  },
+  "usage": {
+    "weekly": [
+      {
+        "week": 1,
+        "hours": {
+          "suppressed": true
+        }
+      }
+    ],
+    "mix": [
+      {
+        "service": "household",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "companionship",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "personal_care",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "other",
+        "share": {
+          "suppressed": true
+        }
+      }
+    ]
+  },
+  "trends": {
+    "work_impact": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "leave_days": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "intent_stay": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    },
+    "satisfaction": {
+      "baseline": {
+        "suppressed": true
+      },
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        }
+      ]
+    }
+  },
+  "themes": [],
+  "report": null,
+  "pilotEnd": null,
+  "evm": {
+    "bac": 6000,
+    "pv": 0,
+    "ev": {
+      "suppressed": true
+    },
+    "ac": {
+      "suppressed": true
+    },
+    "spi": null,
+    "cpi": null
+  }
+}

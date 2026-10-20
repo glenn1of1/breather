@@ -1,0 +1,557 @@
+{
+  "employerName": "Northwind Logistics (fictional)",
+  "scenario": "stop",
+  "week": 13,
+  "synthetic": true,
+  "counts": {
+    "potentialCaregivers": 14,
+    "accepted": 9,
+    "droppedOut": 0,
+    "waitlisted": 0,
+    "pending": 0,
+    "cameClose": 5,
+    "placesUsed": 9,
+    "places": 12,
+    "newThisWeek": 0
+  },
+  "usage": {
+    "weekly": [
+      {
+        "week": 1,
+        "hours": {
+          "suppressed": true
+        }
+      },
+      {
+        "week": 2,
+        "hours": 5
+      },
+      {
+        "week": 3,
+        "hours": 4.5
+      },
+      {
+        "week": 4,
+        "hours": 4.5
+      },
+      {
+        "week": 5,
+        "hours": 5
+      },
+      {
+        "week": 6,
+        "hours": 5.5
+      },
+      {
+        "week": 7,
+        "hours": 5
+      },
+      {
+        "week": 8,
+        "hours": 5
+      },
+      {
+        "week": 9,
+        "hours": 5.5
+      },
+      {
+        "week": 10,
+        "hours": 5
+      },
+      {
+        "week": 11,
+        "hours": 4
+      },
+      {
+        "week": 12,
+        "hours": 3.5
+      },
+      {
+        "week": 13,
+        "hours": 3
+      }
+    ],
+    "mix": [
+      {
+        "service": "household",
+        "share": 0.47
+      },
+      {
+        "service": "companionship",
+        "share": 0.33
+      },
+      {
+        "service": "personal_care",
+        "share": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "other",
+        "share": {
+          "suppressed": true
+        }
+      }
+    ]
+  },
+  "trends": {
+    "work_impact": {
+      "baseline": 5.56,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 4.88
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 7,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 8,
+          "mean": 4.56
+        },
+        {
+          "week": 9,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 10,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 11,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 12,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 13,
+          "mean": 3.56
+        }
+      ]
+    },
+    "leave_days": {
+      "baseline": 4,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 4
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 7,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 8,
+          "mean": 4
+        },
+        {
+          "week": 9,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 10,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 11,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 12,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 13,
+          "mean": 4
+        }
+      ]
+    },
+    "intent_stay": {
+      "baseline": 4.33,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 4.38
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 7,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 8,
+          "mean": 4.33
+        },
+        {
+          "week": 9,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 10,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 11,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 12,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 13,
+          "mean": 4.33
+        }
+      ]
+    },
+    "satisfaction": {
+      "baseline": 3.33,
+      "points": [
+        {
+          "week": 1,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 2,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 3,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 4,
+          "mean": 3.25
+        },
+        {
+          "week": 5,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 6,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 7,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 8,
+          "mean": 3.33
+        },
+        {
+          "week": 9,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 10,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 11,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 12,
+          "mean": {
+            "suppressed": true
+          }
+        },
+        {
+          "week": 13,
+          "mean": 3.33
+        }
+      ]
+    }
+  },
+  "themes": [
+    {
+      "theme": "Time and focus back for work",
+      "participantCount": 7,
+      "quotes": [
+        {
+          "quoteHash": "fc07b8872a82f8cd",
+          "text": "For the first time in months I made it through a full week of meetings without leaving early."
+        },
+        {
+          "quoteHash": "77f047dac7f14da2",
+          "text": "Having someone with my dad on Tuesdays means I can actually focus at work that day."
+        }
+      ]
+    },
+    {
+      "theme": "Booking and scheduling is confusing",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "6e847e5b566e83df",
+          "text": "Booking the first visit took three phone calls, I almost gave up."
+        },
+        {
+          "quoteHash": "d39b4bfae689db0b",
+          "text": "The scheduling portal was confusing, I wasn't sure if my booking went through."
+        }
+      ]
+    },
+    {
+      "theme": "Easier and less guilty to ask for help",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "1975af293dcad74d",
+          "text": "I didn't have to explain myself to anyone, I just signed up. That made it easier to ask."
+        },
+        {
+          "quoteHash": "91a7675e79bcb289",
+          "text": "Knowing it was anonymous made it easier to sign up. I didn't want HR to know my situation."
+        }
+      ]
+    },
+    {
+      "theme": "Trust in the carers",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "cf9b27b1cb7880ec",
+          "text": "The carer was great with my dad, he actually looks forward to it now."
+        },
+        {
+          "quoteHash": "00b8ceb717ea4ae4",
+          "text": "I trust the carers now, at first I was nervous leaving my mom with a stranger."
+        }
+      ]
+    },
+    {
+      "theme": "Worry about when the funding ends",
+      "participantCount": 5,
+      "quotes": [
+        {
+          "quoteHash": "f172cc01d87991e2",
+          "text": "What happens in March when the funding stops? I don't want to get used to this and lose it."
+        },
+        {
+          "quoteHash": "bd495ca045bbf3ba",
+          "text": "I'd pay part of it myself if the company didn't, it's been that useful. But I worry it ends."
+        }
+      ]
+    }
+  ],
+  "report": {
+    "month": 3,
+    "hoursByService": [
+      {
+        "service": "household",
+        "hours": 6
+      },
+      {
+        "service": "companionship",
+        "hours": 5.5
+      },
+      {
+        "service": "personal_care",
+        "hours": {
+          "suppressed": true
+        }
+      },
+      {
+        "service": "other",
+        "hours": {
+          "suppressed": true
+        }
+      }
+    ],
+    "activeCaregivers": 5,
+    "fundsUsed": 775,
+    "fundsCap": 6000
+  },
+  "pilotEnd": {
+    "signals": {
+      "measures": {
+        "work_impact": {
+          "baseline": 5.56,
+          "end": 3.56,
+          "improved": true
+        },
+        "leave_days": {
+          "baseline": 4,
+          "end": 4,
+          "improved": false
+        },
+        "intent_stay": {
+          "baseline": 4.33,
+          "end": 4.33,
+          "improved": false
+        },
+        "satisfaction": {
+          "baseline": 3.33,
+          "end": 3.33,
+          "improved": false
+        }
+      },
+      "improvedCount": 1,
+      "uptake": 0.42,
+      "waitlist": 0,
+      "cameClose": 5,
+      "valueShown": false,
+      "demandExceedsPlaces": false,
+      "rulesCategory": "stop"
+    },
+    "costInputs": {
+      "places": 12,
+      "uptake": 0.42,
+      "hoursPerCaregiverPerMonth": {
+        "p25": 3.7,
+        "mean": 4,
+        "p75": 4.1
+      }
+    }
+  },
+  "evm": {
+    "bac": 6000,
+    "pv": 6000,
+    "ev": 2775,
+    "ac": 3026,
+    "spi": 0.46,
+    "cpi": 0.92
+  }
+}
