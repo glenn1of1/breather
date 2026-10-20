@@ -3,7 +3,7 @@
 // browser loads it fresh (and proxy.ts sends visitors without a code to /access).
 import { ArrowDown, ArrowRight, Calculator, Database, EyeOff, FlaskConical, ListChecks, Mail, MonitorSmartphone, ScanText, Server, ShieldCheck, Sparkles, UserRoundCheck, UsersRound } from "lucide-react";
 import type { ReactNode } from "react";
-import { accessMailto, showcase } from "@/content/showcase";
+import { accessMailto, showcase, SOURCE_URL } from "@/content/showcase";
 
 const { hero, nav, problem, how, engine, privacy, screens, team, footer } = showcase;
 
@@ -89,7 +89,11 @@ function Hero() {
             </a>
           </div>
           <p className="hero__code">
-            {hero.haveCode} <a href="/demo">{hero.openDemo}</a>
+            {hero.haveCode} <a href="/demo">{hero.openDemo}</a> ·{" "}
+            <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer">
+              {hero.viewSource}
+              <span className="sr-only"> on GitHub (opens in a new tab)</span>
+            </a>
           </p>
         </div>
         <div className="hero-art" aria-hidden="true">
@@ -395,7 +399,13 @@ function Footer() {
           </div>
         </div>
         <div className="site-footer__legal">
-          <p>{footer.copyright}</p>
+          <p>
+            {footer.copyright}{" "}
+            <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer">
+              {footer.sourceLink}
+              <span className="sr-only"> (opens in a new tab)</span>
+            </a>
+          </p>
           <p>{footer.disclaimer}</p>
         </div>
       </div>

@@ -7,6 +7,8 @@
 type TeamMember = { name: string; role: string; detail: string; linkedin: string; github: string; photo: string };
 
 export const ACCESS_EMAIL = "hello@breather.dev";
+// The public, view-only snapshot of this repo.
+export const SOURCE_URL = "https://github.com/glenn1of1/breather";
 
 export const showcase = {
   meta: {
@@ -28,6 +30,7 @@ export const showcase = {
     accessBody: "Hi Glenn,\n\nI'd like an access code for the Breather live demo.\n\nName:\nOrganization:\n\nThanks!",
     haveCode: "Have an access code?",
     openDemo: "Open the live demo",
+    viewSource: "View the source",
     // The decorative cards beside the headline (hidden from screen readers; they repeat the copy below).
     art: {
       label: "Pilot decision · week 13",
@@ -164,6 +167,7 @@ export const showcase = {
     ctaBody: "The live demo is private. Ask for an access code and we’ll send one.",
     // Names as in LICENSE.
     copyright: "© 2026 Glenn Salvador, Victoria Chernobay, Giada Laceda and Chayanth Suthahar. All rights reserved. Source code published for viewing only.",
+    sourceLink: "View the source on GitHub",
     disclaimer: "Built for SE Health’s Respite for All challenge at Catalyst 2026. Not affiliated with or endorsed by SE Health or Speer.",
   },
 } as const;
