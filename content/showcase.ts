@@ -12,15 +12,15 @@ export const SOURCE_URL = "https://github.com/glenn1of1/breather";
 
 export const showcase = {
   meta: {
-    title: "Breather · 2nd of 42 at Catalyst 2026",
+    title: "Breather · Catalyst 2026 Finalist",
     description:
       "Breather helps an employer run a 3-month caregiver-benefit pilot without the admin or privacy risk, then decide to scale, sustain or stop with evidence. Built for SE Health's Respite for All challenge.",
-    ogAlt: "Breather: run a caregiver-benefit pilot, then decide to scale, sustain or stop. 2nd of 42 at Catalyst 2026.",
+    ogAlt: "Breather: run a caregiver-benefit pilot, then decide to scale, sustain or stop. Catalyst 2026 finalist, SE Health case study.",
   },
 
   hero: {
     name: "Breather",
-    badge: "🥈 2nd of 42 · Catalyst 2026",
+    badge: "Catalyst 2026 Finalist · SE Health case study",
     tagline: "Run a caregiver-benefit pilot without the admin, then decide what happens next with evidence instead of guesswork.",
     context:
       "Built in 48 hours for SE Health’s Respite for All challenge at Catalyst 2026, a case-study hackathon hosted by Speer Technologies at Northeastern University Toronto (October 16–18, 2026).",
